@@ -2,7 +2,7 @@
 Jdk 8 新特性
 ## Lambda表达式
 
-https://imgchr.com/i/AEGsF1
+![avatar](https://imgchr.com/i/AEGsF1)
 
 
 ## Java匿名内部类
