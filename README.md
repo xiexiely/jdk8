@@ -2,8 +2,7 @@
 Jdk 8 新特性
 ## Lambda表达式
 
-![1551504755352](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551504755352.png)
-
+https://i.loli.net/2019/03/15/5c8b1191d48a8.png
 
 
 ## Java匿名内部类
