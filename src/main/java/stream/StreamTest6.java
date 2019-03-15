@@ -13,7 +13,7 @@ public class StreamTest6 {
         stream.findFirst().ifPresent(System.out::print);
 
 
-        System.out.println("-------------");
+        System.out.println("----z---------");
         Stream.iterate(1,item -> item +2).limit(1).forEach(System.out::println);
 
         //找出流中大于2的元素 然后将每个元素*2 然后忽略前2个元素 最后求出流中元素的总和。
