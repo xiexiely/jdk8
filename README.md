@@ -2,8 +2,7 @@
 Jdk 8 新特性
 ## Lambda表达式
 
-![avatar](https://imgchr.com/i/AEGsF1)
-
+![为什么需要lambda表达式](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551504755352.png)
 
 ## Java匿名内部类
 
