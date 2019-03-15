@@ -1,12 +1,12 @@
+# jdk8
+Jdk 8 新特性
 ## Lambda表达式
 
-![1551504755352](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551504755352.png)
-
-
+![为什么需要lambda表达式](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551504755352.png)
 
 ## Java匿名内部类
 
-![1551504982068](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551504982068.png)
+![1551504982068](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551504982068.png)
 
 ```java
 public class SwingTest {
@@ -30,7 +30,7 @@ public class SwingTest {
 
 ## Lambda表达式基本结构
 
-![1551506487813](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551506487813.png)
+![1551506487813](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551506487813.png)
 
 ```java
 (param1 , param2 , param3) -> { 
@@ -40,9 +40,9 @@ public class SwingTest {
 
 
 
-###  **函数式接口**
+### **函数式接口**
 
-![1551507486120](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551507486120.png)
+![1551507486120](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551507486120.png)
 
 ```html
  	The type is an interface type and not an annotation type, enum, or class.
@@ -98,7 +98,7 @@ public class Test1 {
 
 
 
-![1551510176720](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551510176720.png)
+![1551510176720](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551506487813.png)
 
 ```java
   MyInterface myInterface = () -> {
@@ -114,31 +114,31 @@ public class Test1 {
 2. 方法引用 
 3. 构造方法引用
 
-![1551517037983](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551517037983.png)
+![1551517037983](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551517037983.png)
 
-![1551517088834](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551517088834.png)
+![1551517088834](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551517088834.png)
 
 ### lambda 表达式基本语法
 
-![1551517115678](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551517115678.png)
+![1551517115678](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551517115678.png)
 
-![1551517243745](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551517243745.png)
+![1551517243745](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551517243745.png)
 
-![1551517259533](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551517259533.png)
+![1551517259533](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551517259533.png)
 
 
 
 > ```java
->   public boolean createList(List<WishManager> managers, String wishApplyId, String userId) {
->         List<WishAuthorize> list = new ArrayList<>();
->         managers.forEach(wishManager -> {
->             WishAuthorize wishAuthorize = new WishAuthorize();
->             wishAuthorize.setCreateUserId(userId);
->             wishAuthorize.setUserId(wishManager.getUserId());
->             wishAuthorize.setWishApplyId(wishApplyId);
->             list.add(wishAuthorize);
->         });
->         return worthServiceprovider.getWishAuthorizeService().insertBatch(list);
+> public boolean createList(List<WishManager> managers, String wishApplyId, String userId) {
+>      List<WishAuthorize> list = new ArrayList<>();
+>      managers.forEach(wishManager -> {
+>          WishAuthorize wishAuthorize = new WishAuthorize();
+>          wishAuthorize.setCreateUserId(userId);
+>          wishAuthorize.setUserId(wishManager.getUserId());
+>          wishAuthorize.setWishApplyId(wishApplyId);
+>          list.add(wishAuthorize);
+>      });
+>      return worthServiceprovider.getWishAuthorizeService().insertBatch(list);
 > }
 > ```
 
@@ -159,45 +159,45 @@ public class Test1 {
 >
 > 
 
-![1551670899731](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551670899731.png)
+![1551670899731](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551670899731.png)
 
-![1551670920515](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551670920515.png)
-
-> 函数式编程:四则运算
-
-![1551670990969](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551670990969.png)
-
-![1551671001725](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551671001725.png)
-
-
+![1551670920515](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551670920515.png)
 
 > 函数式编程:四则运算
 
-![1551671114739](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551671114739.png)
+![1551670990969](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551670990969.png)
 
-![1551671132179](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551671132179.png)
+![1551671001725](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551671001725.png)
+
+
+
+> 函数式编程:四则运算
+
+![1551671114739](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551671114739.png)
+
+![1551671132179](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551671132179.png)
 
 > 函数式编程 Function 、BiFunction实现的多种方式
 
-![1551679656263](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551679656263.png)		
+![1551679656263](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551679656263.png)		
 
-![1551679676356](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551679676356.png)
-
-<hr/>
-
-![1551680029979](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551680029979.png)
-
-![1551680057535](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551680057535.png)
+![1551679676356](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551679676356.png)
 
 <hr/>
 
-![1551680163657](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551680163657.png)
+![1551680029979](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551680029979.png)
 
-![1551680177077](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551680177077.png)
+![1551680057535](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551680057535.png)
+
+<hr/>
+
+![1551680163657](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551680163657.png)
+
+![1551680177077](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551680177077.png)
 
 > 函数式编程 Predicate  判断 true Or false
 
-![1551680703308](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1551680703308.png)
+![1551680703308](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1551680703308.png)
 
 ​	
 
@@ -246,7 +246,7 @@ public class PredicateTest2 {
 
 > Predicate And Or Negate
 
-````java
+```java
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -312,9 +312,9 @@ public class PredicateTest3 {
         return Predicate.isEqual(object);
     }   
 }
-````
+```
 
-![1552034844574](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1552034844574.png)
+![1552034844574](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1552034844574.png)
 
 > Supplier 函数式接口  :  get（）
 >
@@ -368,7 +368,6 @@ public class BinaryOpertorTest {
 ​	
 
 > Optional ：函数式判断NPE  从数据库取出来的数据 不一定知道为空使用isNotable
->
 
 ```java
 public class OptionalTest {
@@ -393,7 +392,7 @@ public class OptionalTest {
 
 ```
 
-![1552048859338](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1552048859338.png)
+![1552048859338](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1552048859338.png)
 
 > Optional 推荐用法
 
@@ -489,12 +488,14 @@ public class OptionalComany {
 ​	classname::staticmethod (方法引用 类似函数指针 指向方法)
 
 ​	classname.staticmethod (方法调用)
+
 ```
 
 ```java
   List<String> list = Arrays.asList("0","12");
         list.forEach(item -> System.out.println(item));
         list.forEach(System.out::print);
+
 ```
 
 
@@ -536,6 +537,7 @@ public class Student {
 
 
 }
+
 ```
 
 ```java
@@ -551,6 +553,7 @@ public class StudentComparator {
     }
 
 }
+
 ```
 
 ```java
@@ -615,9 +618,10 @@ public class StudentMethondRefTest {
 
     }
 }
+
 ```
 
-![1552461137970](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1552461137970.png)
+![1552461137970](https://raw.githubusercontent.com/xiexiely/BuildRepositoryy/master/1552461137970.png)
 
 
 
@@ -687,6 +691,7 @@ public class MyClass  extends MyInterfaceImpl implements MyInterface2 {
 }
 
 MyImpl
+
 ```
 
 
@@ -710,6 +715,7 @@ stream.xxx().yyy().zzz().count();
 	-中间操作什么时候被发起 : 只有当 "count()"发起时，中间操作才会被执行
 	
 	- ("及早求值 : count（）: 立马求出值" )
+
 ```
 
 ```java
@@ -726,5 +732,6 @@ public void getPublishListHash(Map<String, Object> map, List<Skill> list) {
 		map.put("registerCountHash", registerCountHash);
 		map.put("registerSuccessCountHash", registerSuccessCountHash);
 	}
+
 ```
 
